@@ -1,0 +1,65 @@
+{
+    "name": "MyDarkTheme",
+    "dataColors": ["#F0F3BD", "#00A8E8", "#02C39A", "#15616D", "#005980", "#003459", "#B4009E","#2A2164","#00171F"],
+    "background":"#FFFFFF",
+    "foreground": "#A1A849",
+    "tableAccent": "#E2A84E",
+	"visualStyles":{
+        "*":{
+            "*":{
+                "*":[{
+                    "responsive":true,
+				    "wordWrap":true,
+                    "fontSize":11
+                }],
+			    "wordWrap":[{
+				    "show":true
+                }],
+                "labels":[{
+                    "show":true,
+                    "labelOrientation":"vertical"
+                }],
+                "categoryAxis":[{
+                    "showAxisTitle":true
+                }],
+                "valueAxis":[{
+                    "showAxisTitle":true
+                }]
+		    }
+	    },
+	    "scatterChart":{
+		    "*":{
+			    "fillPoint":[{
+				    "show":true
+				}]
+		    }
+	    },
+        "lineChart":{
+            "*":{
+                "legend":[{
+                    "legendMarkerRendering":"lineAndMarker"
+                }]
+            }
+        },
+        "donutChart":{
+            "*":{
+                "legend":[{
+                    "show":true
+                }],
+                "labels":[{
+                    "labelStyle": "Percent of total"
+                }]
+            }
+        },
+        "pieChart":{
+            "*":{
+                "legend":[{
+                    "show":true
+                }],
+                "labels":[{
+                    "labelStyle": "Percent of total"
+                }]
+            }
+        }
+    }
+}
